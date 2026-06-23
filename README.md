@@ -2,6 +2,11 @@
 
 Daily foreign exchange rates for **NOK, EUR, SEK, PLN, RON, DKK, CZK** fetched from the European Central Bank, transformed into all cross pairs, and delivered as an analytics-ready file for Power BI.
 
+> **Notas de diseño / Design notes**
+> Las decisiones clave de arquitectura y los trade-offs del proyecto están documentados en dos idiomas:
+> - [DESIGN_NOTE_ES.md](DESIGN_NOTE_ES.md) — versión en **español**
+> - [DESIGN_NOTE.md](DESIGN_NOTE.md) — version in **English**
+
 ---
 
 ## Repository structure
@@ -9,6 +14,8 @@ Daily foreign exchange rates for **NOK, EUR, SEK, PLN, RON, DKK, CZK** fetched f
 ```
 ├── pipeline.py          # End-to-end data pipeline
 ├── requirements.txt     # Python dependencies
+├── DESIGN_NOTE_ES.md    # Nota de diseño en español
+├── DESIGN_NOTE.md       # Design note in English
 ├── output/
 │   └── fx_rates.csv     # Generated output — ready for Power BI
 └── README.md
